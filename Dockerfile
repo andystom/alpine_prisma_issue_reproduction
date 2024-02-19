@@ -21,5 +21,3 @@ RUN mv ./node_modules /tmp/node_modules
 
 RUN npm ci
 RUN npx prisma generate
-
-CMD [ "node", "index.js" ]
