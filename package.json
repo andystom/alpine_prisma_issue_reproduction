@@ -10,13 +10,12 @@
   },
   "dependencies": {
     "@prisma/client": "5.9.1",
-    "prisma": "5.9.1",
     "@tsed/prisma": "7.61.0",
     "ts-node": "^10.7.0"
   },
   "devDependencies": {
-
-  },  
+    "prisma": "5.9.1"
+  },
   "author": "Ondrej Tomek",
   "license": "ISC"
 }
