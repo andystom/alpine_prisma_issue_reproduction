@@ -1,0 +1,22 @@
+{
+  "name": "alpine_prisma_issue_reproduction",
+  "version": "1.0.0",
+  "description": "Reproduction of Prisma failing to be initiatlied by npm ci in Alpine Image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run barrels && npm run lint && tsc --project tsconfig.json",
+    "build:prod": "npm run barrels && npm run lint && tsc --project tsconfig.json --sourceMap false"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1",
+    "prisma": "5.9.1",
+    "@tsed/prisma": "7.61.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+
+  },  
+  "author": "Ondrej Tomek",
+  "license": "ISC"
+}
